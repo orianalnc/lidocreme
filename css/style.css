@@ -1,0 +1,145 @@
+.parallax-container{
+	height: 600px !important;
+}
+
+.btn-botton{
+	position: absolute;
+    bottom: 80px;
+    right: 25px;
+    border-radius: 30px !important;
+    font-size: 26px !important;
+    background-color: #8f0505 !important;
+
+}
+.btn-botton:hover{
+	 transition-property: color ;
+    transition: all .4s;
+    transition-delay: .2s;
+	
+}
+.btn-botton:hover{
+	 background-color: #ddd437 !important;
+	 color: #8f0505;
+	 font-weight: bold;
+}
+
+
+.red{
+	background-color: #8f0505 !important;
+}
+
+.lid-red{
+	color: #8f0505 !important;
+}
+
+.lid-blue{
+	color: #2f58c9 !important;
+}
+.blue-lid{
+	background-color: #2f58c9 !important;
+}
+
+.botton{
+    border-radius: 30px !important;
+    font-size: 26px !important;
+    background-color: #8f0505 !important;
+
+}
+
+.botton:hover{
+	 transition-property: color ;
+    transition: all .4s;
+    transition-delay: .2s;
+	
+}
+.botton:hover{
+	 background-color: #2f58c9 !important;
+	 color: #ffffff;
+	 font-weight: bold;
+}
+
+.botton-medium{
+	width: 50% !important;
+	 border-radius: 30px !important;
+    font-size: 26px !important;
+    background-color: #8f0505 !important;
+   
+}
+
+.botton-medium:hover{
+	 transition-property: color ;
+    transition: all .4s;
+    transition-delay: .2s;
+	
+}
+.botton-medium:hover{
+	 background-color: #ffffff !important;
+	 color: #2f58c9;
+	 font-weight: bold;
+}
+
+
+
+.bold{
+	font-weight: bold;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+.line-height{
+	line-height: 120%;
+}
+
+.padding{
+	padding: 15px;
+}
+
+.flex{
+	display: flex;
+flex-flow: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.call{
+	background: brown;
+	color: white !important;
+	position: relative;
+	top: 30px;
+}
+.call:hover{
+	 transition-property: color ;
+    transition: all .4s;
+    transition-delay: .2s;
+}
+.call:hover{
+	background-color: #ddd437;
+	color: brown !important;
+	position: relative;
+	top: 30px;
+}
+
+.img-botton{
+	position: relative;
+bottom: -60px;
+}
+
+
+
+
+/*  OHTRER*/
+
+
+
+div.other{
+	position: relative;
+	top: 20vh;
+
+}
+
+@media screen (max-width: 600px){
+	h1{
+		font-size: 2.2rem;
+	}
+}
