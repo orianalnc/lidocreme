@@ -1,6 +1,10 @@
-.parallax-container{
-	height: 600px !important;
+.container-img{
+	height: auto !important;
 }
+
+
+
+
 
 .btn-botton{
 	position: absolute;
@@ -122,7 +126,7 @@ justify-content: center;
 
 .img-botton{
 	position: relative;
-bottom: -60px;
+    bottom: -40px;
 }
 
 
@@ -138,8 +142,38 @@ div.other{
 
 }
 
-@media screen (max-width: 600px){
+
+@media (max-width: 1024px){
+
 	h1{
-		font-size: 2.2rem;
+		font-size: 3.2rem !important;
+	}
+
+}
+
+@media (max-width: 922px){
+
+	.botton-medium{
+		width: 100%;
+	}
+	
+
+}
+
+@media (max-width: 600px) {
+	h1{
+		font-size: 1.2rem !important;
+	}
+
+}
+
+
+@media (max-width: 1024px){
+
+	.botton-medium{
+		width: 100% !important;
+	}
+	.btn-botton{
+		display: none !important;
 	}
 }
