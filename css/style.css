@@ -143,26 +143,12 @@ div.other{
 }
 
 
-@media (max-width: 1024px){
 
-	h1{
-		font-size: 3.2rem !important;
-	}
 
-}
+@media (max-width: 1044px){
 
-@media (max-width: 922px){
-
-	.botton-medium{
-		width: 100%;
-	}
-	
-
-}
-
-@media (max-width: 600px) {
-	h1{
-		font-size: 1.2rem !important;
+	.img-botton {
+		bottom: -53px ;
 	}
 
 }
@@ -176,4 +162,25 @@ div.other{
 	.btn-botton{
 		display: none !important;
 	}
+	h1{
+		font-size: 3.2rem !important;
+	}
+
 }
+
+@media (max-width: 922px){
+
+	.botton-medium{
+		width: 100%;
+	}
+
+
+}
+
+@media (max-width: 600px) {
+	h1{
+		font-size: 1.2rem !important;
+	}
+
+}
+
